@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== SWIPER CSS ===== -->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/index.css">
+
+        <title>PortFolio </title>
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "fLOXR8YhtQRoC4878",
+      });
+   })();
+</script>
+
+
+    </head>
+    <body>
+        <!--===== SCROLL TOP =====-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+        
+        <!--===== HEADER =====-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                
+                <a href="#" class="nav__logo">MUNI G</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contactme</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" >
+                    <i class='bx bx-menu ' id="nav-toggle"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <span class="home__greeting">Hello, My name is</span>
+                        <h1 class="home__name">MUNI SELVAM</h1>
+                        <span class="home__profession">Web Developer</span>
+                        <a download="" href="assets/pdf/Muni resume.pdf" class="button button-light home__button">Download Cv</a>
+                    </div>
+                    
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-icon"><i class='bx bxl-facebook-square'></i></a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-icon"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-icon"><i class='bx bxl-twitter'></i></a>
+                    </div>
+
+                    <!-- <div class="home__img">
+                        <img src="assets/img/home.jpg" alt="">
+                    </div> -->
+                </div>
+            </section>
+            
+            <!--===== ABOUT =====-->
+            <section class="about section bd-container" id="about">
+                <span class="section-subtitle">My history</span>
+                <h2 class="section-title">About me</h2>
+
+                <div class="about__container  bd-grid">
+                    <div class="about__data bd-grid">
+                        <p class="about__description"><span>Hello, I am <br> </span> Freelance frontend developer, I am passionate about creating and developing web interfaces. With years of experience in web design and development.</p>
+
+                    
+                    </div>
+
+                    <img src="assets/img/about_img.jpg" alt="" class="about__img">
+                </div>
+            </section>
+
+            <!--===== QUALIFICATION =====-->
+            <section class="qualification bd-container section">
+                <!-- <span class="section-subtitle">Experience and education</span> -->
+                <h2 class="section-title">Qualification</h2>
+
+
+                    <div class="qualification__content">
+                        <h2 class="qualification__title">
+                            <i class='bx bx-book-bookmark qualification__title-icon'></i>
+                            Education
+                        </h2>
+
+                        <div class="bd-grid">
+                            <div class="qualification__data">
+                                <h3 class="qualification__area">HSC</h3>
+    
+                                <div class="qualification__box">
+                                    <span class="qualification__work">
+                                        <i class='bx bx-book-alt qualification__icon'></i>
+                                        Virudhunagar - Thiyagaraja higher secontry school
+                                    </span>
+    
+                                    <span class="qualification__work">                                      
+                                        <i class='bx bx-calendar-alt qualification__icon'></i>
+                                         2019 - 2020
+                                    </span>
+                                </div>
+                            </div>
+    
+                            <div class="qualification__data">
+                                <h3 class="qualification__area">B.TECH IT</h3>
+    
+                                <div class="qualification__box">
+                                    <span class="qualification__work">
+                                        <i class='bx bx-book-alt qualification__icon'></i>
+                                        Coimbatore - Hindusthan Institude of Technology
+                                    </span>
+    
+                                    <span class="qualification__work">
+                                        <i class='bx bx-calendar-alt qualification__icon'></i>
+                                         2020 -  2024
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="qualification__content">
+                                
+                                <div class="bd-grid">
+                                    <div class="qualification__data">
+                                        <h3 class="qualification__area">MERN STACK</h3>
+            
+                                        <div class="qualification__box">
+                                            <span class="qualification__work">
+                                                <i class='bx bx-book-alt qualification__icon'></i>
+                                                Coimbatore - Kgisl Microcollege
+                                            </span>
+            
+                                            <span class="qualification__work">                                      
+                                                <i class='bx bx-calendar-alt qualification__icon'></i>
+                                                 28.5.24 - 28.11.24
+                                            </span>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--===== CONTACTME =====-->
+            <section class="contact bd-container section" id="contact">
+                <span class="section-subtitle">For projects</span>
+                <h2 class="section-title">Contact Me</h2>
+
+                <div class="contact__container bd-grid">
+
+                    <div class="contact__content bd-grid">
+                        <div class="contact__box">
+                            <i class='bx bx-home contact__icon' ></i>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__description">Coimbatore</span>
+                        </div>
+
+                        <div class="contact__box">
+                            <i class='bx bx-phone contact__icon' ></i>
+                            <h3 class="contact__title">Phone</h3>
+                            <span class="contact__description">+91 8220953684</span>
+                        </div>
+
+                        <div class="contact__box">
+                            <i class='bx bx-envelope contact__icon' ></i>
+                            <h3 class="contact__title">Gmail</h3>
+                            <span style="
+                            font-size: small;" class="contact__description">muniselvam006@email.com   </span>
+                        </div>
+
+                        <div class="contact__box">
+                            <i class='bx bx-chat contact__icon' ></i>
+                            <h3 class="contact__title">Chat</h3>
+                            <div>
+                                <a href="https://web.whatsapp.com/" class="contact__social"><i class='bx bxl-whatsapp-square' ></i></a>
+                                <a href="https://www.instagram.com/" class="contact__social"><i class='bx bxl-instagram' ></i></a>
+                                <a href="https://www.linkedin.com/feed/" class="contact__social"><i class='bx bxl-linkedin' ></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action=""  class="contact__form" onsubmit="sendEmail(event)">
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Name" id="name" class="contact__input" required>
+                            <input type="email" placeholder="Email" id="email" class="contact__input" required>
+                        </div>
+                
+                       
+
+                        <textarea name="" id="message" cols="0" rows="7" placeholder="Subject" class="contact__input" required></textarea>
+
+                        <button type="submit" 
+                            class="button contact__button"> Submit</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <div class="footer__container bd-container">
+                <div style="text-align: center;
+                margin-bottom: 10px;
+                " class="footer__social">
+                    <a href="https://web.whatsapp.com/" class="footer__link"><i class='bx bxl-whatsapp' ></i></a>
+                    <a href="https://www.instagram.com/" class="footer__link"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://www.linkedin.com/feed/" class="footer__link"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+                <p class="footer__copy">&#169; 2024 MuniSelvam  All right reserved</p>
+            </div>
+        </footer>
+                
+        <!-- ===== MIXITUP FILTER ===== -->
+        <script src="assets/js/mixitup.min.js"></script>
+        
+        <!-- ===== SWIPER JS ===== -->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        
+        <!-- ===== GSAP ===== -->
+        <script src="assets/js/gsap.min.js"></script>
+        
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
